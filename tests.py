@@ -26,5 +26,8 @@ class Test(unittest.TestCase):
   def test_sce_1_3_2(self):
     self.assertEqual(program.RomanNumerals.addRomanNumerals("I", "III"), 4)
 
+  def test_sce_1_3_3(self):
+    self.assertEqual(program.RomanNumerals.addRomanNumerals("XIII", "IX", "XIV"), 36)
+
 if __name__ == "__main__":
     unittest.main()
