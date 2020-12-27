@@ -14,8 +14,8 @@ Python
 *SCE-1-1-2*: `addRomanNumerasl(“IV”)` debe retornar `4`.
 *SCE-1-1-3*: `addRomanNumerals(“XIII”)` debe retornar `13`.
 *SCE-1-2-1*: `convertRomanNumeral(“I”)` debe retornar `1`.
-*SCE-1-2-2*: `convertRomanNumeral(“IX”)` debe retornar `4`.
-*SCE-1-2-3*: `convertRomanNumeral(“XIV”)` debe retornar `9`.
+*SCE-1-2-2*: `convertRomanNumeral(“IX”)` debe retornar `9`.
+*SCE-1-2-3*: `convertRomanNumeral(“XIV”)` debe retornar `14`.
 *SCE-1-3-1*: `addRomanNumerals(“I”)` debe retornar `1`.
 *SCE-1-3-2*: `addRomanNumerals(“I”, “III”)` debe retornar `4`.
 *SCE-1-3-3*: `addRomanNumerals(“XIII”, “IX”, “XIV”)` debe retornar `36`.
