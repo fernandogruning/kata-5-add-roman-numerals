@@ -14,5 +14,8 @@ class Test(unittest.TestCase):
   def test_sce_1_2_1(self):
     self.assertEqual(program.RomanNumerals.convertRomanNumeral("I"), 1)
 
+  def test_sce_1_2_2(self):
+    self.assertEqual(program.RomanNumerals.convertRomanNumeral("IX"), 9)
+
 if __name__ == "__main__":
     unittest.main()
