@@ -33,9 +33,5 @@ class RomanNumerals(object):
     def addRomanNumerals(*romanNumerals):
         num = 0
         for rNum in romanNumerals:
-            # num+=RomanNumerals.convertRomanNumeral(rNum)
-            if rNum == "IV":
-                num += 4
-            elif rNum == "XIII":
-                num += 13
+            num += RomanNumerals.convertRomanNumeral(rNum)
         return num
